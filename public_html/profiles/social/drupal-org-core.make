@@ -5,7 +5,7 @@
 # Each makefile should begin by declaring the core version of Drupal that all
 # projects should be compatible with.
 
-core: '8.x'
+core: 8.x
 
 # API version
 # ------------
@@ -13,8 +13,8 @@ core: '8.x'
 # drush make uses API version `2`.
 api: 2
 
-# Core pathes
+# Patches for core and it's modules.
 projects:
-  block:
+  drupal:
     patch:
       - 'https://www.drupal.org/files/issues/2724283-block-22.patch'

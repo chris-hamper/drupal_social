@@ -6,7 +6,7 @@
 # Each makefile should begin by declaring the core version of Drupal that all
 # projects should be compatible with.
 
-core: '8.x'
+core: 8.x
 
 # API version
 # ------------
@@ -27,14 +27,14 @@ defaults:
 # All dependencies with latest versions we use. If we do not add the versions we will not have a stable build
 # on all the environments.
 projects:
-  drupal:
-    version: 8.1.0
   address:
     version: 1.0-beta2
   admin_toolbar:
     version: '1.14'
   config_update:
     version: '1.1'
+  composer_manager:
+    version: 1.0-rc1
   devel:
     version: 1.x-dev
   entity:
@@ -61,6 +61,7 @@ projects:
   bootstrap:
     type: theme
     version: 3.x-dev
+
 
 # Libraries
 #  libraries:
