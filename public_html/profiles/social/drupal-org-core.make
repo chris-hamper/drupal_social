@@ -16,5 +16,6 @@ api: 2
 # Patches for core and it's modules.
 projects:
   drupal:
+    version: 8.1.0
     patch:
       - 'https://www.drupal.org/files/issues/2724283-block-22.patch'
