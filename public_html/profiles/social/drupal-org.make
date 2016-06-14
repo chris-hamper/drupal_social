@@ -62,15 +62,28 @@ projects:
     type: theme
     version: 3.x-dev
 
-
 # Libraries
-#  libraries:
-#    fotable:
-#      download:
-#        type: git
-#        tag: V2.0.1.4
-#        url: "https://github.com/bradvin/FooTable.git"
-#      destination: libraries
-#      directory_name: FooTable
+libraries:
+  addressing:
+    download:
+      type: git
+      tag: v0.8.2
+      url: "https://github.com/commerceguys/addressing.git"
+    destination: vendor
+    directory_name: commerceguys/addressing
+  zone:
+    download:
+      type: git
+      tag: v0.7.1
+      url: "https://github.com/commerceguys/zone.git"
+    destination: vendor
+    directory_name: commerceguys/zone
+  intl:
+    download:
+      type: git
+      tag: v0.7.1
+      url: "https://github.com/commerceguys/intl.git"
+    destination: vendor
+    directory_name: commerceguys/intl
 
 # @Todo add theme as a dependency once it's correctly released and released?
