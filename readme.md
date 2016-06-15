@@ -16,6 +16,14 @@ Source-code and installation instructions are currently only available on [Githu
 
 # Installation #
 
+## Make file ##
+
+    drush make build-social.make [target folder]
+    cd [target folder]
+    php modules/composer_manager/scripts/init.php
+    composer drupal-rebuild
+    composer update -n --lock --verbose
+
 ## Docker toolbox ##
 Download and install the [toolbox](https://www.docker.com/docker-toolbox).
 
@@ -26,7 +34,7 @@ Note that the docker projects have to be somewhere in your /Users/ directory in 
 
 1. Start a docker machine (docker quickstart icon).
 
-2. Clone this repository to the directory of your choice (e.g. ~/Sites/social).
+2. Clone our https://github.com/goalgorilla/drupal_social repository to the directory of your choice (e.g. ~/Sites/social).
 
 3. Go inside the folder in which you cloned this repository (where the docker-compose.yml file is).
 
