@@ -18,6 +18,9 @@ Source-code and installation instructions are currently only available on [Githu
 
 ## Make file ##
 
+Installing with our make file? Please use the following commands to make sure you get all the composer dependencies
+from the contributed modules as well.
+
     drush make build-social.make [target folder]
     cd [target folder]
     php modules/composer_manager/scripts/init.php
