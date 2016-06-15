@@ -23,7 +23,7 @@ from the contributed modules as well.
 
     drush make build-social.make [target folder]
     cd [target folder]
-    php [target folder]/modules/contrib/composer_manager/scripts/init.php
+    php modules/contrib/composer_manager/scripts/init.php
     composer drupal-rebuild
     composer update -n --lock --verbose
 
